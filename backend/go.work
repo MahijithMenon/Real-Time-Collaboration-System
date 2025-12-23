@@ -1,0 +1,11 @@
+go 1.23.0
+
+use (
+	./pkg
+	./services/auth-service
+	./services/collab-service
+	./services/comments-service
+	./services/gateway-service
+	./services/presence-service
+	./services/snapshot-service
+)

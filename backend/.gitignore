@@ -1,0 +1,34 @@
+# ===== Go binaries =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ===== Build folders =====
+/bin/
+/dist/
+/build/
+
+# ===== Go workspace =====
+/vendor/
+
+# ===== Env & secrets (CRITICAL) =====
+.env
+.env.*
+*.key
+*.pem
+
+# ===== Logs =====
+*.log
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
